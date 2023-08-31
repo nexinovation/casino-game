@@ -99,7 +99,7 @@ def printScore():
     elif((firstWheel == "BAR") and (secondWheel == "BAR") and (thirdWheel == "BAR")):
         win = 250
         balance = balance - 250
-    elif((firstWheel == "7") and (secondWheel == "7") and (thridWheel == "7")):
+    elif((firstWheel == "7") and (secondWheel == "7") and (thirdWheel == "7")):
         win = balance
         balance = balance - win
     else:
